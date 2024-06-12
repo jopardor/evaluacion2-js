@@ -1,0 +1,38 @@
+@import "../bootstrap-5.3.3/scss/bootstrap.scss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.btn-primary {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    background-image: url('assets/img/fondobodygeneral.jpg');
+    background-color: white;
+    color: #3f888f;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3f888f;
+    color: white;
+  }
+  
+
+body{
+    background-image: url('../img/fondobodygeneral.jpg'); /* Ruta relativa a la ubicación del archivo CSS */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+
+
+
+
+
+
